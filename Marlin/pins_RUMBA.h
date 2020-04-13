@@ -118,16 +118,15 @@
 //
 // Heaters / Fans
 //
-#define HEATER_0_PIN        2
-#define HEATER_1_PIN        3
-#define HEATER_2_PIN        6
-#define HEATER_3_PIN        8
-#define HEATER_BED_PIN      9
+#define HEATER_0_PIN        2 // HE0
+#define HEATER_1_PIN        3 // HE1
+//#define HEATER_2_PIN        6 // HE2
+#define HEATER_BED_PIN      9 // HB
 
 #ifndef FAN_PIN
   #define FAN_PIN           7
 #endif
-#define FAN1_PIN            8
+#define FAN1_PIN            8 // FAN1
 
 //
 // Misc. Functions
@@ -136,7 +135,8 @@
 #define LED_PIN            13
 #define PS_ON_PIN          45
 #define KILL_PIN           46
-#define CASE_LIGHT_PIN     45
+//#define CASE_LIGHT_PIN     45
+#define CASE_LIGHT_PIN     6 // HE2
 
 //
 // M3/M4/M5 - Spindle/Laser Control
